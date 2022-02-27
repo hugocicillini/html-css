@@ -1,0 +1,11 @@
+body {
+   background-color: rgb(224, 65, 65);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 234);
+}
+h2 {
+    color: darkred;
+}

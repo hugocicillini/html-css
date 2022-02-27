@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Agrupamento</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-style:groove;
+        
+        }
+        nav {
+            width: 390px;
+            background-color: white;
+            padding: 1px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        nav > a {
+            margin-left: 40px;
+            margin-right: 10px;
+            padding: 1px;
+        }
+
+        nav:hover > a {
+            background-color: black;
+            color: white;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        article {
+            background-color: lightblue;
+        }
+
+        article > h1 {
+            color: crimson;
+        }
+
+        article > aside {
+            background-color: aqua;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav><a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Notícia sobre mim</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione beatae, dicta magni quo praesentium, molestias numquam aliquid nihil quasi unde, labore autem. Excepturi architecto delectus earum quidem et. Quam, quia.</p>
+                <aside>
+                    <p>Artigo escrito por Hugo</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Hugo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
