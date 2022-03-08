@@ -16,7 +16,7 @@
             width: 400px;
             text-align: center;
             text-align:left;
-            
+            text-indent: 3px;
         }
 
         caption {
@@ -29,12 +29,25 @@
             border: 1px solid black;
             pad: 8px;
         }
+
+        col.cnome {
+            background-color: red;
+        }
+
+        col.csexo {
+            background-color: green;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício</h1>
 
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -42,6 +55,36 @@
             <th scope="col">Idade</th>
             <th scope="col">Profissão</th>
         </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
         <tr>
             <td>Ana Maria</td>
             <td>F</td>
